@@ -1,0 +1,172 @@
+*, *::after. *::before {
+box-sizing: border-box; 
+}
+
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex: 1;
+	flex-basis: auto;
+	justify-content: space-between;
+}
+
+.prod-category-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.prod-list-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.light {
+	margin: 50px 0px;
+	background-color: #E0E0E0;
+	height: 200px;
+	text-align: center;
+	color: black;
+} 
+
+.dark {
+	margin: 50px 0px;
+	background-color: #A0A0A0;
+	height: 200px;
+	text-align: center;
+	color: black;
+}
+
+
+.title {
+	text-align: center;
+}
+
+p {
+	margin: 0px 0px;
+}
+
+.category-name {
+	position: relative;
+	top: 150px;
+}
+
+.light-grid {
+	position: relative;
+	margin: 50px 25px;
+	background-color: #E0E0E0;
+	height: 300px;
+	text-align: center;
+	color: black;
+}
+
+.dark-grid {
+	position: relative;
+	margin: 50px 25px;
+	background-color: #A0A0A0;
+	height: 300px;
+	text-align: center;
+	color: black;
+}
+
+.prod-photo {
+	position: relative;
+	border: 2px solid black;
+	padding: 60px 50px;
+}
+
+
+.prod-name {
+	position: absolute;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.price {
+	position: absolute;
+	text-align: left;
+	top: 175px;
+	padding-left: 30px;
+
+}
+.rating {
+	position: relative;
+	text-align: left;
+	top: 80px;
+	padding-left: 20px;
+}
+
+.quick-view-btn  {
+	position: relative;
+	text-decoration: none;
+	padding: 20px 15px;
+	background-color:#606060;
+	color: white;
+	top: 125px;
+	transition: 0.3s ease;
+}
+
+.quick-view-btn:hover  {
+	background-color:#C0C0C0;
+	color: black;
+}
+
+.path {
+	font-weight: lighter;
+	text-align: left;
+}
+
+.small-pic {
+	background-color: #A0A0A0;
+	width: 75px;
+	height: 75px;
+	margin: 25px 0px;
+}
+
+.item-pic {
+	background-color: #A0A0A0;
+	height: 500px;
+	width: 500px;
+	margin: 25px 0px;
+}
+
+.prod-description {
+	border: 2px solid black;
+	padding: 100px 100px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.quantity-btn {
+	text-decoration: none;
+	padding: 10px 10px;
+	background-color: #A0A0A0;
+	color: white;
+}
+
+.add-cart-button {
+	text-decoration: none;
+	padding: 10px 10px;
+	background-color: #A0A0A0;
+	color: white;
+}
