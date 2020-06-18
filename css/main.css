@@ -155,6 +155,43 @@ code {
 	margin-bottom: 20px;
 }
 
+#footer-example {
+	background-color:#313639 ;
+	align-items: center;
+	margin-bottom: 20px;
+	height: 350px;
+}
+
+.footer-left{
+	margin-left: 75px;
+	color: #f8f8f8;
+}
+
+.footer-line{
+	border-left: 3px solid #f8f8f8;
+	height:250px;
+}
+
+.footer-center{
+	color:#f8f8f8;
+	align-content: center;
+	align-items: center;
+	text-align:center;
+	justify-content: space-between;
+}
+
+.footer-center-items{
+	align-content: center;
+	align-items: center;
+}
+
+.footer-right{
+	margin-right: 75px;
+	align-content: right;
+	text-align: right;
+	color: #f8f8f8;
+}
+
 .nav_link_example {
 	list-style: none;
 	align-items: center;
