@@ -60,6 +60,7 @@ html {
 
 .title {
 	text-align: center;
+	font-weight: lighter;
 }
 
 p {
@@ -253,4 +254,21 @@ p {
 	align-content: right;
 	text-align: right;
 	color: #f8f8f8;
+}
+
+.module-section {
+	text-align: left;
+	font-weight: lighter;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	padding-bottom: 20px;
+	
+}
+
+.module-section h2{
+	border-bottom: 2px solid grey;
+	margin-bottom: 0px;
 }
