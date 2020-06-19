@@ -2,8 +2,8 @@
 box-sizing: border-box; 
 }
 
-html {
-	font-family: "Open Sans", sans-serif;
+* {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .row {
@@ -21,18 +21,6 @@ html {
 	flex: 1;
 	flex-basis: auto;
 	justify-content: space-between;
-}
-
-.prod-category-container {
-	max-width: 1000px;
-	margin: 0 auto;
-	width: 100%;
-}
-
-.prod-list-container {
-	max-width: 1000px;
-	margin: 0 auto;
-	width: 100%;
 }
 
 .container {
@@ -53,6 +41,41 @@ html {
 	margin: 50px 0px;
 	background-color: #A0A0A0;
 	height: 200px;
+	text-align: center;
+	color: black;
+}
+
+.light2 {
+	margin: 10px 20px;
+	margin-bottom: 30px;
+	background-color: #E0E0E0;
+	height: 200px;
+	text-align: center;
+	color: black;
+} 
+
+.dark2 {
+	margin: 10px 20px;
+	margin-bottom: 30px;
+	background-color: #A0A0A0;
+	height: 200px;
+	text-align: center;
+	color: black;
+}
+
+.light3 {
+	margin: 10px 20px;
+	margin-bottom: 30px;
+	background-color: #E0E0E0;
+	text-align: center;
+	color: black;
+} 
+
+.dark3 {
+	margin: 10px 20px;
+	margin-bottom: 30px;
+	background-color: #A0A0A0;
+	height: 150px;
 	text-align: center;
 	color: black;
 }
@@ -377,3 +400,218 @@ h2{
 .summary-row{
 	margin:20px 0px;
 }
+
+.sub-titles {
+	text-align: left;
+	font-weight: bolder;
+	margin: 10px 0px;
+	display: inline-block;
+}
+
+.prod-details {
+	margin: 10px 0px;
+	padding: 50px 50px;
+	border: 2px solid grey;
+}
+
+.write-review-btn {
+	 text-align: left;
+	background-color: #606060;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.column-review {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-grow: 5;
+	flex-basis: auto;
+	justify-content: space-between;
+}
+
+.column-review-details {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-basis: auto;
+	justify-content: center;
+	align-content: center;
+}
+
+.review-pic {
+	background-color: #A0A0A0;
+	width: 75px;
+	height: 75px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	display:inline-block;
+}
+
+.review-row1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-end;
+	padding-bottom: 15px;
+}
+
+.review-row1 p {
+	margin-right: 20px;
+}
+
+.review-row2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	padding-bottom: 15px;
+}
+
+.submit-review-btn {
+	text-decoration: none;
+	color: white;
+	background-color:#A0A0A0;
+	padding: 5px 10px;
+	transition: 0.3s ease;
+}
+
+.submit-review-btn:hover {
+	background-color:#606060 ;
+}
+
+.enter-review {
+	background-color: rgba(160,160,160,.2);
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px 10px;
+	max-width: 400px;
+}
+
+#review-title {
+	font-weight: bolder;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-top: 0;
+}
+
+.banner {
+	background-color: #A0A0A0;
+	height: 300px;
+	color: black;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.featured-name {
+	position: relative;
+	top: 215px;
+}
+
+.item-detail-info {
+	background-color: #E0E0E0 ;
+	margin: 25px 0px;
+	height: 500px;
+}
+
+.about-section {
+	margin: 25px 0px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color:#A0A0A0;
+	height: 300px;
+}
+
+.about-section2 {
+	margin: 25px 0px;
+	align-content: center;
+	text-align: center;
+	background-color: #E0E0E0;
+	height: 300px;
+}
+
+.faq {
+	background-color:#E0E0E0;
+	margin: 10px 10px;
+	height: 200px;
+}
+
+.row-contact {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex: 1;
+	flex-basis: auto;
+	justify-content: center;
+
+}
+
+.contact-pic {
+	margin: 30px 30px;
+	background-color: #A0A0A0;
+	height: 200px;
+	text-align: center;
+}
+
+.left-column {
+	background-color:#A0A0A0 ;
+	margin: 10px 15px;
+	padding: 10px 15px;
+}
+
+.right-column {
+	background-color: #E0E0E0;
+	margin: 10px 15px;
+	padding: 10px 15px;
+	height: auto;
+}
+
+.send-message-btn {
+	text-decoration: none;
+	background-color:#E0E0E0 ;
+	padding: 10px 20px;
+	margin-top: 10px;
+	color: black;
+	transition: 0.3s ease;
+	border: 2px solid #E0E0E0;
+}
+
+.send-message-btn:hover {
+	background-color: #A0A0A0;
+}
+
+#contact-socials {
+	padding: 20px 0px;
+}
+
+.phone-number {
+	background-color:#A0A0A0;
+	padding: 5px 10px;
+}
+
+.contact-subtitle {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.nav-container {
+        position: sticky; 
+        top:0;
+        z-index: +1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.category-link {
+	color: black;
+}
+
