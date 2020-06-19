@@ -195,6 +195,13 @@ p {
 	margin-left: 30px;
 }
 
+.speaker-pic {
+	background-color: #a0a0a0;
+	height: 100px;
+	width: 100px;
+	margin: 5px 5px;
+}
+
 .cart-name-column {
 	width: 20%;
 	text-align: center;
@@ -513,6 +520,7 @@ h2{
 	text-align: center;
 	align-content: center;
 	justify-content: center;
+	width:100%;
 }
 
 .featured-name {
@@ -677,4 +685,35 @@ a {
 	padding-bottom: 20px;
 	padding-top: 5px;
 	background-color: white;
+}
+
+
+.event-general {
+	text-align: left;
+	position: absolute;
+	top: 240px;
+}
+
+.event-column-small {
+	width:35%;
+	margin-top: 50px;
+}
+
+.event-column-large {
+	width:65%;
+	margin-top: 50px;
+}
+
+.event-itinerary-slot {
+	margin-bottom: 10px;
+}
+
+.event-info {
+	width:90%;
+}
+
+.event-image {
+	width: 100%;
+	height: 100%;
+	margin: 1.5rem;
 }
