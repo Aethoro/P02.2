@@ -292,7 +292,7 @@ p {
 #footer-example {
 	background-color:#313639 ;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-top:100px;
 	height: 350px;
 }
 
@@ -391,6 +391,11 @@ h2{
 
 .checkout-summary-total-price{
 	width:40%;
+}
+
+.confirmation-info-column{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .summary-line{
@@ -615,3 +620,19 @@ a {
 	color: black;
 }
 
+#submit-button {
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px 20px;
+	background-color: #9CEDEB;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	border-radius: 8px;
+	transition: 0.3s ease;
+	color: black;
+}
+
+#submit-button:hover {
+	background-color: rgba(156,237,235,.4);
+}
