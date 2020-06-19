@@ -2,8 +2,8 @@
 box-sizing: border-box; 
 }
 
-html {
-	font-family: "Open Sans", sans-serif;
+* {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .row {
@@ -494,5 +494,19 @@ p {
 .contact-subtitle {
 	padding-top: 10px;
 	padding-bottom: 20px;
+}
+
+.nav-container {
+        position: sticky; 
+        top:0;
+        z-index: +1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.category-link {
+	color: black;
 }
 
