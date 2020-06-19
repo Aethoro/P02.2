@@ -257,6 +257,7 @@ p {
 .nav_link_icons li{
 	display: inline-block;
 	padding-right: 50px;
+
 }
 
 .nav-mod-h3 {
@@ -647,4 +648,33 @@ a {
 	background-color: #f8f8f8;
 	width: 300px;
 	height:300px;
+}
+
+.row-checkout-titles {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.row-summary-titles {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	padding-left: 20px;
+}
+
+.row-search {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-end;
+	padding-right: 200px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	background-color: white;
 }

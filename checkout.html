@@ -26,7 +26,10 @@
 
 
 				<ul class="nav_link_icons">
-					<li><a href="search.html"><img src="img/search.png"></a></li>
+					<li class="search-icon">
+						<input type="search" placeholder="Search">
+						<a href="#" id="search-icon"><img src="img/search.png"></a>
+					</li>
 					<li><a href="cart.html"><img src="img/cart.png"></a></li>
 				</ul>
 		</div> 
@@ -34,11 +37,6 @@
 	</div>
 
 <!-- START OF CHECKOUT MODULE -->
-		<div class="container">
-			<div class="module-section"> <!-- beginning of module section row -->
-					<h2>CHECKOUT MODULE</h2>
-			</div> <!-- end of module section row -->
-		</div>
 
 		<div class="container"> <!-- start of container -->
 
@@ -57,7 +55,7 @@
 					<h3 class="checkout-category-text">SHIPPING INFO</h3>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">E-mail Address: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -66,7 +64,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">First Name: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -74,7 +72,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Last Name: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -83,14 +81,14 @@
 					</div>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Address Line 1: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
 					</div>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Address Line 2: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -99,7 +97,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">City: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -107,7 +105,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Province/State: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -118,7 +116,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Country: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -126,7 +124,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Postal/ZIP Code: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -136,8 +134,8 @@
 
 					<h3 class="checkout-category-text">BILLING INFO</h3>
 
-										<div class="row checkout-content">
-						<div class="row">
+					<div class="row checkout-content">
+						<div class="row-checkout-titles">
 							<label for="fname">E-mail Address: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -146,7 +144,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">First Name: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -154,7 +152,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Last Name: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -163,14 +161,14 @@
 					</div>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Address Line 1: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
 					</div>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Address Line 2: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -179,7 +177,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">City: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -187,7 +185,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Province/State: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -198,7 +196,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Country: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -206,7 +204,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Postal/ZIP Code: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -217,7 +215,7 @@
 					<h3 class="checkout-category-text">PAYMENT DETAILS</h3>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Card Number: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -226,7 +224,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Expiry Date: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -234,8 +232,8 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
-									<label for="fname">CW: </label></div>
+								<div class="row-checkout-titles">
+									<label for="fname">CVC: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
 							</div>
@@ -243,7 +241,7 @@
 					</div>
 
 					<div class="row checkout-content">
-						<div class="row">
+						<div class="row-checkout-titles">
 							<label for="fname">Name on Card: </label></div>
 						<div class="row">
 							<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -252,7 +250,7 @@
 					<div class="row">
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Phone Number: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -260,7 +258,7 @@
 						</div>
 						<div class="column checkout-half">
 							<div class="row checkout-content">
-								<div class="row">
+								<div class="row-checkout-titles">
 									<label for="fname">Postal/ZIP Code: </label></div>
 								<div class="row">
 									<input type="text" id="fname" name="fname" class="text-box"></div>
@@ -294,18 +292,18 @@
 						</div>
 						<div class="row summary-row">
 							<div class="column checkout-summary-total-text">
-								<div class="row">
+								<div class="row-summary-titles">
 									<p>Sub-Total: </p>
 								</div>
-								<div class="row">
+								<div class="row-summary-titles">
 									<p>Tax: </p>
 								</div>
-								<div class="row">
+								<div class="row-summary-titles">
 									<p>Shipping & Handling: </p>
 								</div>
 								<div class="row">
 								</div>
-								<div class="row">
+								<div class="row-summary-titles">
 									<p>Total: </p>
 								</div>
 							</div>
